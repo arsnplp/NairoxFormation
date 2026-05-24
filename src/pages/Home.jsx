@@ -45,14 +45,16 @@ const teamMembers = [
   {
     name: 'Arsène Lecoq Martin',
     role: 'Président — Référent Administratif, Pédagogique et Référent Handicap',
-    email: 'arsene.lecoq9@gmail.com',
+    emailContact: 'arsene.lecoq8@gmail.com',
+    emailHandicap: 'arsene.lecoq9@gmail.com',
     phone: '06 14 38 05 22',
     photo: '/arsene.png',
   },
   {
     name: 'Fatima Namane',
     role: 'Directrice Générale — Référente Administrative, Pédagogique et Référente Handicap',
-    email: 'referent.h.nairoxformation@gmail.com',
+    emailContact: 'fnamane@hotmail.fr',
+    emailHandicap: 'referent.h.nairoxformation@gmail.com',
     phone: '06 64 76 23 32',
     photo: '/fatima.jpg',
   },
@@ -248,13 +250,23 @@ export default function Home() {
                   <p className="text-gray-500 text-xs mt-2 mb-5 leading-relaxed max-w-xs">{person.role}</p>
                   <div className="space-y-2">
                     <a
-                      href={`mailto:${person.email}`}
+                      href={`mailto:${person.emailContact}`}
                       className="flex items-center gap-2 text-violet-500 hover:text-violet-600 text-sm font-medium transition-colors justify-center"
                     >
                       <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                       </svg>
-                      {person.email}
+                      {person.emailContact}
+                    </a>
+                    <a
+                      href={`mailto:${person.emailHandicap}`}
+                      className="flex items-center gap-2 text-violet-400 hover:text-violet-500 text-xs transition-colors justify-center"
+                    >
+                      <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                      </svg>
+                      {person.emailHandicap}
+                      <span className="text-gray-300 text-xs">(handicap)</span>
                     </a>
                     <a
                       href={`tel:${person.phone.replace(/\s/g, '')}`}
