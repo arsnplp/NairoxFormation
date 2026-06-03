@@ -40,7 +40,7 @@ export default function CGV() {
               <p className="font-semibold text-gray-900">Nairox Formation</p>
               <p>Micro-entreprise — Adresse professionnelle : 53 rue des Alouettes, 92000 Nanterre</p>
               <p>SIREN : 995 237 567 — SIRET : 99523756700012</p>
-              <p>Déclaration d'activité : 119230795</p>
+              <p>Déclaration d'activité : 11923079592</p>
               <p>Téléphone : 06 14 38 05 22</p>
               <p>
                 Email :{' '}

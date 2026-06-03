@@ -12,7 +12,7 @@ function Hero() {
           Pris en application des articles L.6352-3 et R.6352-1 à R.6352-15 du Code du travail
         </p>
         <p className="text-white/50 text-xs mt-1">
-          NDA 119230795 — SIREN 995 237 567 — Version 1.0 — Mai 2026
+          NDA 11923079592 — SIREN 995 237 567 — Version 1.0 — Mai 2026
         </p>
       </div>
     </section>

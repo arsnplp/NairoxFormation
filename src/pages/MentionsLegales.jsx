@@ -49,7 +49,7 @@ export default function MentionsLegales() {
             <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 space-y-2">
               <Info label="SIREN">995 237 567</Info>
               <Info label="SIRET">99523756700012</Info>
-              <Info label="Déclaration d'activité de formation">119230795 — enregistré auprès du préfet de région Île-de-France. Cet enregistrement ne vaut pas agrément de l'État.</Info>
+              <Info label="Déclaration d'activité de formation">11923079592 — enregistré auprès du préfet de région Île-de-France. Cet enregistrement ne vaut pas agrément de l'État.</Info>
               <Info label="Adresse professionnelle">53 rue des Alouettes, 92000 Nanterre</Info>
               <Info label="Directeur de la publication">Monsieur Arsène Lecoq Martin, en qualité de responsable de Nairox Formation</Info>
             </div>

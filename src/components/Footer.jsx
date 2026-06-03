@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="space-y-2.5 text-sm">
               <div>
                 <p className="text-white/40 text-xs mb-0.5">Déclaration d'activité</p>
-                <p className="text-white/80">119230795</p>
+                <p className="text-white/80">11923079592</p>
               </div>
               <div>
                 <p className="text-white/40 text-xs mb-0.5">SIRET</p>
