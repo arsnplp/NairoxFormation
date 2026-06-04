@@ -90,6 +90,12 @@ export default function CGV() {
                 Un échelonnement en 4 versements égaux est possible sur demande. Les modalités sont précisées lors de l'inscription.
               </p>
             </div>
+            <div className="bg-green-50 border border-green-200 rounded-xl p-5">
+              <p className="font-semibold text-green-800 mb-1">Financement OPCO</p>
+              <p className="text-green-700">
+                Cette formation est finançable par votre OPCO. Si vous souhaitez passer par ce dispositif, Nairox Formation vous accompagne dans l'ensemble des démarches administratives (demande de prise en charge, constitution du dossier, facturation).
+              </p>
+            </div>
           </Section>
 
           <Section number="5" title="Délai d'accès à la formation">

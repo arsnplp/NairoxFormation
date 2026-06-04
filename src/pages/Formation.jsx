@@ -125,7 +125,7 @@ const practicalInfo = [
   },
   {
     label: 'Financement',
-    value: 'Autofinancement — paiement en 4 fois sans frais disponible',
+    value: 'Autofinancement — paiement en 4 fois sans frais — Finançable OPCO',
   },
 ]
 
@@ -352,6 +352,21 @@ export default function Formation() {
             La formation est réglée directement par l'apprenant ou son entreprise. Un échelonnement
             en 4 fois sans frais est disponible sur demande.
           </p>
+          <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-6">
+            <div className="flex items-start gap-4">
+              <div className="text-2xl">🏢</div>
+              <div>
+                <h3 className="font-bold text-green-900 text-lg mb-2">Financement OPCO</h3>
+                <p className="text-green-800 text-sm leading-relaxed">
+                  Cette formation est finançable par votre OPCO (Opérateur de Compétences).
+                  Si vous souhaitez mobiliser ce dispositif, nous vous accompagnons dans toutes les démarches administratives — de la demande de prise en charge jusqu'à la facturation.
+                </p>
+                <p className="text-green-700 text-sm mt-2 font-medium">
+                  Contactez-nous pour en savoir plus et être guidé pas à pas.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="bg-violet-50 border border-violet-200 rounded-2xl p-6">
             <h3 className="font-bold text-navy-900 text-lg mb-5">Paiement en 4 fois sans frais</h3>
             <div className="space-y-3">
