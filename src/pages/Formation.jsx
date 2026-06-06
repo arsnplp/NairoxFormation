@@ -438,7 +438,7 @@ export default function Formation() {
             {[
               { label: "Nombre d'apprenants formés", value: '1' },
               { label: 'Taux de satisfaction global', value: '100 % (5/5)' },
-              { label: 'Taux d'atteinte des objectifs pédagogiques', value: '100 %' },
+              { label: "Taux d'atteinte des objectifs pédagogiques", value: '100 %' },
               { label: 'Progression moyenne (QCM initial → QCM final)', value: '+4 points (de 6/10 à 10/10, soit +40 %)' },
               { label: 'Taux de recommandation', value: '100 %' },
               { label: "Taux d'abandon", value: '0 %' },
