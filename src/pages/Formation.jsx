@@ -427,6 +427,41 @@ export default function Formation() {
         </div>
       </section>
 
+      {/* ── INDICATEURS ── */}
+      <section className="bg-white py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="section-title mb-2">Indicateurs de résultats</h2>
+          <p className="text-gray-500 text-sm mb-8">
+            Données à date du 31 mars 2026 — Sur la base de 1 session pilote (1 apprenant)
+          </p>
+          <div className="rounded-2xl border border-gray-200 overflow-hidden shadow-sm mb-8">
+            {[
+              { label: "Nombre d'apprenants formés", value: '1' },
+              { label: 'Taux de satisfaction global', value: '100 % (5/5)' },
+              { label: 'Taux d'atteinte des objectifs pédagogiques', value: '100 %' },
+              { label: 'Progression moyenne (QCM initial → QCM final)', value: '+4 points (de 6/10 à 10/10, soit +40 %)' },
+              { label: 'Taux de recommandation', value: '100 %' },
+              { label: "Taux d'abandon", value: '0 %' },
+            ].map((row, i) => (
+              <div
+                key={row.label}
+                className={`flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-6 px-6 py-4 ${
+                  i % 2 === 0 ? 'bg-gray-50' : 'bg-white'
+                } border-b border-gray-100 last:border-0`}
+              >
+                <span className="text-gray-700 text-sm flex-1">{row.label}</span>
+                <span className="font-bold text-violet-700 text-sm sm:text-right whitespace-nowrap">{row.value}</span>
+              </div>
+            ))}
+          </div>
+          <div className="bg-violet-50 border border-violet-100 rounded-2xl p-6 space-y-3 text-sm text-gray-600 leading-relaxed">
+            <p><span className="font-semibold text-navy-900">Méthode de recueil :</span> bilan de satisfaction obligatoire à l'issue de chaque formation (échelle 1 à 5), évaluations en cours de formation (7 exercices sur grille /20, seuil 14/20), QCM de positionnement initial et final.</p>
+            <p><span className="font-semibold text-navy-900">Mise à jour :</span> ces indicateurs sont mis à jour à chaque nouvelle session clôturée.</p>
+            <p><span className="font-semibold text-navy-900">Transparence :</span> conformément à notre démarche de certification Qualiopi, nous publions ces chiffres en toute transparence, en précisant la volumétrie sur laquelle ils sont calculés.</p>
+          </div>
+        </div>
+      </section>
+
       {/* ── FOAD ── */}
       <section className="bg-navy-900 py-6 px-4">
         <div className="max-w-4xl mx-auto text-center">
