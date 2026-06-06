@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
             {[
               { value: '21h', label: 'de formation' },
-              { value: 'Format', label: 'mixte' },
+              { value: 'Format mixte', label: 'E-learning sur LMS Moodle 24h/24\n+ Visio collective avec formateur' },
               { value: '0', label: 'prérequis technique' },
             ].map((stat) => (
               <div
@@ -138,7 +138,7 @@ export default function Home() {
                 className="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-5"
               >
                 <div className="text-3xl font-bold text-white mb-1">{stat.value}</div>
-                <div className="text-white/80 text-sm">{stat.label}</div>
+                <div className="text-white/80 text-sm whitespace-pre-line">{stat.label}</div>
               </div>
             ))}
           </div>
