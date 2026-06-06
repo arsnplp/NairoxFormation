@@ -58,7 +58,7 @@ export default function Footer() {
               >
                 arsene.lecoq8@gmail.com
               </a>
-              <p className="text-white/60">Formation 100% à distance</p>
+              <p className="text-white/60">Formation FOAD — E-learning &amp; visioconférences</p>
             </div>
           </div>
         </div>

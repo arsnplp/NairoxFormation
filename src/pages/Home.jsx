@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
             {[
               { value: '21h', label: 'de formation' },
-              { value: '100 %', label: 'à distance' },
+              { value: 'Format', label: 'mixte' },
               { value: '0', label: 'prérequis technique' },
             ].map((stat) => (
               <div
