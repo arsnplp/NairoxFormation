@@ -112,7 +112,7 @@ const practicalInfo = [
   { label: 'Durée', value: '21 heures' },
   { label: 'Tarif', value: '500 € HT par participant (600 € TTC)' },
   { label: 'Prérequis', value: "Maîtrise des bases de l'informatique et d'Internet" },
-  { label: 'Modalité', value: '100% à distance — Plateforme Moodle + sessions visioconférence live' },
+  { label: 'Modalité', value: 'Format mixte\nE-learning sur LMS Moodle 24h/24\n+ Visio collective avec formateur' },
   { label: "Délai d'accès", value: '14 jours minimum après signature de la convention (délai légal de rétractation)' },
   {
     label: 'Format',
@@ -236,11 +236,11 @@ export default function Formation() {
             processus et la productivité
           </h1>
           <p className="text-lg text-white/75 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Une formation complète, 100% à distance, sans prérequis technique, conçue pour les
+            Une formation complète en format mixte, sans prérequis technique, conçue pour les
             professionnels qui veulent exploiter le plein potentiel de l'IA.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {['21h de formation', '500 € HT', '100% distanciel', '0 prérequis'].map((badge) => (
+            {['21h de formation', '500 € HT', 'Format mixte', '0 prérequis'].map((badge) => (
               <span
                 key={badge}
                 className="bg-white/10 border border-white/20 text-white text-sm font-medium px-4 py-2 rounded-full"
@@ -277,7 +277,7 @@ export default function Formation() {
                 <span className="font-semibold text-navy-900 text-sm sm:w-44 flex-shrink-0">
                   {item.label}
                 </span>
-                <span className="text-gray-600 text-sm">{item.value}</span>
+                <span className="text-gray-600 text-sm whitespace-pre-line">{item.value}</span>
               </div>
             ))}
           </div>
@@ -424,6 +424,15 @@ export default function Formation() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── FOAD ── */}
+      <section className="bg-navy-900 py-6 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-white/70 text-sm font-medium tracking-wide uppercase">
+            Formation FOAD — E-learning &amp; visioconférences
+          </p>
         </div>
       </section>
 
